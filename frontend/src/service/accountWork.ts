@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL:String = "http://localhost:8000";
+const URL:String = "https://todo-list-nu-green.vercel.app";
 
 export async function performSignup(data: any){
     try {

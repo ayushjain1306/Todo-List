@@ -9,7 +9,7 @@ dotenv.config();
 const app: Application = express();
 
 app.use(cors({
-    origin: "",
+    origin: "https://to-do-list-theta-lake.vercel.app",
     methods: ["POST", "GET", "PUT", "DELETE", "PATCH", "OPTIONS"],
     credentials: true
 }));
