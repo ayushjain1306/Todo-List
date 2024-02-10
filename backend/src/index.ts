@@ -8,7 +8,12 @@ dotenv.config();
 
 const app: Application = express();
 
-app.use(cors());
+app.use(cors({
+    origin: "",
+    methods: ["POST", "GET", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    credentials: true
+}));
+
 app.use(express.json());
 
 connection();
