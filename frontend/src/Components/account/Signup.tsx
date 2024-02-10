@@ -83,7 +83,7 @@ const AnotherButton = styled(Button)`
     }
 
     @media screen and (max-width: 700px){
-        width: 60%;
+        width: 80%;
         margin-top: 20px;
     }
 
