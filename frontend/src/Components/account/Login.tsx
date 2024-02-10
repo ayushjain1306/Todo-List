@@ -12,7 +12,7 @@ const Typo = styled(Typography)`
 
     @media screen and (max-width: 700px){
         font-size: 20px;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
     @media screen and (min-width: 700px) and (max-width: 1100px){
